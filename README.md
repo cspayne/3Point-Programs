@@ -3,6 +3,8 @@
 ## Description
 This project consists of a parser that analyzes programs according to the grammar rules of an invented language '3Point', which portrays 3 named variables assigned to 2d points. If the 3Point program has no errors, the parser will output translations of the 3Point program that can be run by one of the other 2 programs included in the project. 
 
+The project was designed and prompted by Dr. Carlos Arias, and programmed by me, Cypress Payne, for Concepts in Programming Languages (CSC3310)
+
 # 3Point Parser - Rust
 
 ## Description
