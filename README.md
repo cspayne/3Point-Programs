@@ -1,9 +1,9 @@
 # 3Point Programs
 
 ## Description
-This project consists of a parser that analyzes programs according to the grammar rules of an invented language '3Point'. If the 3Point program has no errors, the parser will output translations of the 3Point program that can be run by one of the other 2 programs included in the project. 
+This project consists of a parser that analyzes programs according to the grammar rules of an invented language '3Point', which portrays 3 named variables assigned to 2d points. If the 3Point program has no errors, the parser will output translations of the 3Point program that can be run by one of the other 2 programs included in the project. 
 
-# 3Point Grammar Lexical and Syntax Analysis
+# 3Point Parser - Rust
 
 ## Description
 This is a program in Rust that takes a program written in 3Point, and outputs:
@@ -121,7 +121,7 @@ main:- forall(query(Q), Q-> (writeln(‘yes’)) ; (writeln(‘no’))),
 
 Additional files with decorated (Tokens with Lexemes on the Leafs) parse trees. The file is named like the input file but with the extension `.pt` (stands for parse tree), for instance if the input file is `test1.cpl` the parse tree should be in file `test1.pt`.
 
-# Prolog Program
+# 3Point Questionairre - Prolog
 
 ## Description
 This is a Prolog program that stores information about geometric objects. 
@@ -153,7 +153,7 @@ Steps to integrate the parser made in Rust:
 1. Paste your generated test to your prolog program: `cat threepoints.pl mytest.pl > full.pl`
 1. Run your program to check what those three points in `test.cpl` represent: `swipl -q -f full.pl -t main`
 
-# Scheme Program
+# 3Point Calculations - Scheme
 
 ## Description
 This is a Scheme program that implements the following functions:
