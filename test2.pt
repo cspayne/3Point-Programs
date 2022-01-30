@@ -1,0 +1,22 @@
+START
+	POINT_DEF
+		ID alfa = POINT
+		(
+		NUM 12
+		,
+		NUM 33
+		);
+	POINT_DEF
+		ID beta = POINT
+		(
+		NUM 8
+		,
+		NUM 11
+		);
+	POINT_DEF
+		ID gamma = POINT
+		(
+		NUM 1
+		,
+		NUM 4
+		).
