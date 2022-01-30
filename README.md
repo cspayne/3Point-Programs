@@ -1,6 +1,7 @@
-#3Point Programs
-## Description
+# 3Point Programs
 
+## Description
+This project consists of a parser that analyzes programs according to the grammar rules of an invented language '3Point'. If the 3Point program has no errors, the parser will output translations of the 3Point program that can be run by one of the other 2 programs included in the project. 
 
 # 3Point Grammar Lexical and Syntax Analysis
 
